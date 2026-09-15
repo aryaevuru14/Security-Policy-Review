@@ -92,6 +92,7 @@ def generate_docx_report():
     ACCENT_BLUE = RGBColor(53, 89, 140)      # #35598C
     DARK_TEXT = RGBColor(34, 34, 34)         # #222222
     MUTED_GRAY = RGBColor(100, 100, 100)     # #646464
+    CODE_BG_HEX = "F4F6F9"
 
     def set_cell_background(cell, fill_hex):
         tcPr = cell._tc.get_or_add_tcPr()
